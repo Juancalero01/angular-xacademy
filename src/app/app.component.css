@@ -1,0 +1,57 @@
+.container {
+  background-color: #000000;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  width: 500px;
+  height: auto;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+.card-container {
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.card-prompt-heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.card-prompt-wrap {
+  width: 100%;
+}
+.card-prompt-wrap table {
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+.card-prompt-nolist {
+  text-align: center;
+}
+
+.footer {
+  color: #ffffff;
+}
+.footer-link {
+  color: #4fc3f7;
+  text-decoration: none;
+}
